@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-covidtraceradmin-dev-143545-authRole",
+            "UnauthRoleArn": "arn:aws:iam::038338007858:role/amplify-covidtraceradmin-dev-143545-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::038338007858:role/amplify-covidtraceradmin-dev-143545-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-covidtraceradmin-dev-143545-deployment",
+            "UnauthRoleName": "amplify-covidtraceradmin-dev-143545-unauthRole",
+            "StackName": "amplify-covidtraceradmin-dev-143545",
+            "StackId": "arn:aws:cloudformation:us-east-1:038338007858:stack/amplify-covidtraceradmin-dev-143545/25a554d0-7eb3-11eb-84af-0a90b7832da7",
+            "AmplifyAppId": "d3bh79ykdhmyg7"
+        },
+        "categories": {
+            "auth": {
+                "covidtraceradmin725ce482": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3bh79ykdhmyg7",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
