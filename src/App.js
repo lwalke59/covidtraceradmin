@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div style={styles.container}>
-        <h2>Select time range of COVID-19 exposure to notify customers about potential contact by email</h2>
+        <h2>Select time range of COVID-19 exposure to email customers about potential contact</h2>
         <div>
 
           <label htmlFor="start-time">Choose a start time:</label>
