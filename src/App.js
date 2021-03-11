@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { AmplifyButton, withAuthenticator } from '@aws-amplify/ui-react';
+import { AmplifyButton, withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 class App extends Component {
 
@@ -42,6 +42,10 @@ class App extends Component {
         <div>
           <br></br>
           <AmplifyButton onClick={this.sendEmail}> Send Email</AmplifyButton>
+        </div>
+        <div>
+          <br></br>
+          <AmplifySignOut />
         </div>
       </div >
     )
